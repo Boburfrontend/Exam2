@@ -34,15 +34,13 @@ button {
 }
 
 header {
-  background: linear-gradient(
-    255.02deg,
-    rgba(129, 194, 212, 0.56) 5.93%,
-    rgba(138, 199, 217, 0.56) 23.18%,
-    rgba(155, 207, 224, 0.72) 43.47%,
-    rgba(135, 198, 215, 0.49) 58.21%,
-    rgba(102, 178, 201, 0.57) 73.36%,
-    rgba(98, 177, 198, 0.51) 92.76%
-  );
+  background: linear-gradient(255.02deg,
+      rgba(129, 194, 212, 0.56) 5.93%,
+      rgba(138, 199, 217, 0.56) 23.18%,
+      rgba(155, 207, 224, 0.72) 43.47%,
+      rgba(135, 198, 215, 0.49) 58.21%,
+      rgba(102, 178, 201, 0.57) 73.36%,
+      rgba(98, 177, 198, 0.51) 92.76%);
   padding: 40px 0;
 }
 
@@ -50,12 +48,13 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  column-gap: 28px;
 }
 
 .nav-items {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 28px;
 }
 
 .nav-link,
@@ -105,15 +104,13 @@ nav {
 .hero {
   background: url(../images/hero-main-3.png), url(../images/hero-main-2.png),
     url(../images/hero-main.png),
-    linear-gradient(
-      255.02deg,
+    linear-gradient(255.02deg,
       rgba(129, 194, 212, 0.56) 5.93%,
       rgba(138, 199, 217, 0.56) 23.18%,
       rgba(155, 207, 224, 0.72) 43.47%,
       rgba(135, 198, 215, 0.49) 58.21%,
       rgba(102, 178, 201, 0.57) 73.36%,
-      rgba(98, 177, 198, 0.51) 92.76%
-    );
+      rgba(98, 177, 198, 0.51) 92.76%);
   background-repeat: no-repeat;
   background-position: right top, center bottom, right center;
   padding: 109px 0 134px;
@@ -192,8 +189,7 @@ nav {
 }
 
 /* ///////////////// /////////////// */
-.new-content {
-}
+.new-content {}
 
 .new-head {
   display: flex;
@@ -220,6 +216,7 @@ nav {
   display: flex;
   column-gap: 30px;
 }
+
 .cards-right {
   display: flex;
   flex-wrap: wrap;
@@ -227,8 +224,7 @@ nav {
 }
 
 /* //////////////////////////////////// */
-.top-content {
-}
+.top-content {}
 
 .top-head {
   padding: 120px 0 70px;
@@ -277,6 +273,7 @@ nav {
 .top-content .card:nth-child(4) {
   z-index: 3;
 }
+
 .top-content .card:nth-child(3) {
   z-index: 10;
 }
